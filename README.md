@@ -1,2 +1,9 @@
-# migrade-fixture-cobol-payroll-go-7
-abdullaharshadsamsung-hue/migrade-fixture-cobol-payroll migrated to go by Migrade
+package internal
+
+import "testing"
+
+func TestMain(t *testing.T) {
+	if got := "ok"; got != "ok" {
+		t.Fatalf("expected ok, got %q", got)
+	}
+}
